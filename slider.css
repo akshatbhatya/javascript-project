@@ -8,4 +8,19 @@
     height:500px;
     box-shadow: 0px 0px 5px black;
     margin: 20px auto;
+    position:relative;
+}
+
+.btns{
+    text-align: center;
+}
+button{
+    background:antiquewhite;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.slide{
+       position:absolute;
 }
