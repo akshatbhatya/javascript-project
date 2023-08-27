@@ -5,7 +5,7 @@
 }
 .slider-images{
     height:500px;
-    margin: 20px auto;
+    margin: 0px auto;
     position:relative;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@ button{
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
-    margin: 0px 10px;
+    margin: 50px 10px;
 }
 .slide{
        position:absolute;
