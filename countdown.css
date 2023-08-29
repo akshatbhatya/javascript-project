@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    text-align: center;
+    padding: 20px 30px;
+    color: white;
+    background: #000;
+    display: block;
+    border: none;
+    border-radius: 10px;
+
+}
+.image{
+    background-image: url('https://picsum.photos/1536/735.jpg');
+    width: 100vw;
+    height: 100vh;
+}
+.overlay{
+    background:rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
