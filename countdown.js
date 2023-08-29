@@ -15,14 +15,14 @@ function timecalculation() {
     const oneseconds = 1000;
     const days = totalTimeLeft / onedays;
 
-    var futureDays = Math.round(days);
+    var futureDays = Math.floor(days);
     console.log(futureDays);
     const hours = totalTimeLeft / onehours;
-    var futurehours = Math.round(hours);
+    var futurehours = Math.floor(hours);
     const minutes = totalTimeLeft / oneminutes;
-    var futureminutes = Math.round(minutes);
+    var futureminutes = Math.floor(minutes);
     const seconds = totalTimeLeft / oneseconds;
-    var futureseconds = Math.round(seconds)%60;
+    var futureseconds = Math.floor(seconds)%60;
 
 
     const day = document.querySelector('.days');
